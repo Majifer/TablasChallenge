@@ -1,0 +1,144 @@
+
+.Rectangle{
+    height: 900px;
+    width: 2000px;
+    padding: 0;
+    margin-inline-start: 380px;
+    top: 300px;
+    position: absolute;
+    border: 2px solid black;
+}
+h1{
+    text-align: center;
+    font-style: bold;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    font-style: bold;
+    font-size: 50px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px
+    
+}
+#grid {
+    display: grid;
+    grid: 6rem 6rem 6rem 6rem 6rem 6rem 6rem/ 12rem 12rem 12rem 12rem 12rem 12rem 12rem;
+    justify-content: center;
+    align-content: center;
+    min-height: 20rem;
+}
+#item0 {
+    background-color: rgb(26, 109, 19);
+    grid-column: 1/12;
+    /*Cabecera Color Verde Header Grid */
+}
+#item1 {
+    background-color: rgb(0, 0, 0);
+    grid-column: 1/1;
+    /*Inicio Negro */
+}
+  
+#item2 {
+    background-color: teal;
+    grid-column: 2 / 2;
+}
+  
+#item3 {
+    background-color: blue;
+    grid-column: 3 / 3;
+    
+}
+#item4 {
+    background-color:navy;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    
+}
+#item5 {
+    background-color:lime;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    
+}
+#item6 {
+    background-color: rgb(229, 226, 226);
+    grid-column-start: 7;
+    grid-column-end: 8;
+}
+#item7 {
+    background-color: rgb(122, 24, 131);
+    grid-column: 2/1;
+}
+#item8 {
+    background-color: rgb(255, 251, 11);
+    grid-column: 2/2;
+}
+  
+#item9 {
+    background-color: olive;
+    grid-column: 3 / 3;
+}
+  
+#item10 {
+    background-color: rgb(255, 0, 0);
+    grid-column: 4 / 4;
+    
+}
+#item11 {
+    background-color:rgb(0, 0, 0);
+    grid-column-start: 5;
+    grid-column-end: 7;
+    
+}
+#item12 {
+    background-color: rgb(146, 145, 145);
+    grid-column-start: 7;
+    grid-column-end: 8;
+    
+}
+#item13{
+    background-color: olive;
+    grid-column-start: 1;
+    grid-column-end:1;
+
+}
+#item14{
+    background-color: red;
+    grid-column-start: 2;
+    grid-column-end: 2;
+
+
+}
+#item15{
+    background-color: fuchsia;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+#item16{
+    background-color: green;
+    grid-column-start: 4;
+    grid-column-end: 8;
+
+}
+#item6 {
+    background-color: rgb(255, 255, 255);
+    grid-column-start: 7;
+    grid-column-end: 8;
+}
+#grid2{
+    display: grid;
+    grid: 4rem 4rem 4rem 4rem 4rem 4rem / 6rem 6rem 6rem 6rem 6rem 6rem;
+    justify-content: center;
+    align-content: center;
+    min-height: 12rem;
+}
+
+
+
+
+
+
+
